@@ -1,0 +1,6 @@
+
+// for mac Users to build the custom docker image
+docker buildx build -f Dockerfile -t my-mysqldb .
+
+// run the container using the my-mysqldb image from the previous step
+docker run -d --name=database-mysql -v /Users/cashin/Desktop/sql/backup/v1-simple-docker:/var/lib/mysql -p 7777:3306 -e MYSQL_ROOT_PASSWORD=root_password my-mysqldb

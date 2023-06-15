@@ -1,0 +1,8 @@
+1. write Spring boot code
+2. create database schema using mysql
+3. connect the database locally
+4. test out the crud functions
+5. create a mysql container using docker
+6. connect the mysql container with spring boot backend
+7. seeing same result
+8. done
